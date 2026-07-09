@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browse our premium automobile inventory - luxury sedans, SUVs, electric vehicles and more. Wah-Pak Global Trading Limited.">
+  <title>Products | Wah-Pak Global Trading</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23c9a84c'/><text x='50' y='68' text-anchor='middle' font-size='50' font-weight='bold' fill='%230a0d14'>W</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header scrolled">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">W</div>
+        <span class="logo-text">Wah-Pak</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="nav-cta">Get Quote</a></li>
+        </ul>
+      </nav>
+
+      <div class="mobile-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="page-hero-content">
+      <span class="hero-badge">Our Inventory</span>
+      <h1>Premium Vehicles for <span class="text-accent">Global Export</span></h1>
+      <p>Browse our current inventory. Not finding what you need? Contact us with your specific requirements.</p>
+    </div>
+  </section>
+
+  <!-- Category Tabs -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="category-tabs reveal">
+        <button class="category-tab active" data-filter="all">All Vehicles</button>
+        <button class="category-tab" data-filter="sedan">Sedans</button>
+        <button class="category-tab" data-filter="suv">SUVs</button>
+        <button class="category-tab" data-filter="bulk">Bulk Export</button>
+        <button class="category-tab" data-filter="premium">Premium</button>
+      </div>
+
+      <div class="products-grid">
+        <!-- Product 1 -->
+        <div class="product-card reveal" data-category="sedan premium" onclick="openModal('images/product-1.png')">
+          <img src="images/product-1.png" alt="Luxury Premium Sedan" class="product-image" loading="lazy">
+          <div class="product-info">
+            <h3>Premium Luxury Sedan</h3>
+            <p>Late-model luxury sedan with low mileage. Full service history, pristine condition. Ideal for executive markets.</p>
+            <span class="product-tag">Sedan</span>
+            <span class="product-tag">Premium</span>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card reveal" data-category="suv premium" onclick="openModal('images/product-2.jpg')">
+          <img src="images/product-2.jpg" alt="SUV Collection" class="product-image" loading="lazy">
+          <div class="product-info">
+            <h3>Premium SUV Lineup</h3>
+            <p>Curated selection of mid-to-large SUVs. Popular models for emerging markets with strong resale value.</p>
+            <span class="product-tag">SUV</span>
+            <span class="product-tag">Premium</span>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card reveal" data-category="bulk" onclick="openModal('images/product-3.jpg')">
+          <img src="images/product-3.jpg" alt="Bulk Vehicle Inventory" class="product-image" loading="lazy">
+          <div class="product-info">
+            <h3>Bulk Inventory Stock</h3>
+            <p>Large-volume vehicle lots available for wholesale buyers. Consistent quality across units, ready for shipment.</p>
+            <span class="product-tag">Bulk</span>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card reveal" data-category="sedan premium" onclick="openModal('images/product-4.jpg')">
+          <img src="images/product-4.jpg" alt="Premium Sedan Export" class="product-image" loading="lazy">
+          <div class="product-info">
+            <h3>Executive Sedan Collection</h3>
+            <p>Low-mileage executive sedans with premium trims. Thoroughly inspected and detailed before export.</p>
+            <span class="product-tag">Sedan</span>
+            <span class="product-tag">Premium</span>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card reveal" data-category="suv" onclick="openModal('images/product-5.jpg')">
+          <img src="images/product-5.jpg" alt="SUV Export Inventory" class="product-image" loading="lazy">
+          <div class="product-info">
+            <h3>Mid-Size SUV Stock</h3>
+            <p>Reliable mid-size SUVs with proven performance. Popular choice for family and commercial use.</p>
+            <span class="product-tag">SUV</span>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card reveal" data-category="bulk sedan" onclick="openModal('images/product-6.jpg')">
+          <img src="images/product-6.jpg" alt="Vehicle Showroom" class="product-image" loading="lazy">
+          <div class="product-info">
+            <h3>Multi-Brand Selection</h3>
+            <p>Diverse vehicle brands and models available. One-stop sourcing solution for multi-brand dealerships.</p>
+            <span class="product-tag">Sedan</span>
+            <span class="product-tag">Bulk</span>
+          </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-card reveal" data-category="suv premium" onclick="openModal('images/product-7.jpg')">
+          <img src="images/product-7.jpg" alt="Luxury SUV Export" class="product-image" loading="lazy">
+          <div class="product-info">
+            <h3>Luxury SUV Range</h3>
+            <p>High-end SUV models featuring the latest technology and comfort. Perfect for premium market segments.</p>
+            <span class="product-tag">SUV</span>
+            <span class="product-tag">Premium</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Export Process -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">How It Works</span>
+        <h2 class="section-title">Our Export Process</h2>
+        <p class="section-subtitle">Simple, transparent, and efficient — from inquiry to delivery.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon" style="font-size:1.8rem; font-weight:800;">1</div>
+          <h3>Submit Inquiry</h3>
+          <p>Tell us your vehicle requirements — brand, model, year, budget, and target market. We respond within 24 hours.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon" style="font-size:1.8rem; font-weight:800;">2</div>
+          <h3>Vehicle Selection</h3>
+          <p>We present curated options with detailed condition reports, photos, and competitive pricing for your review.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon" style="font-size:1.8rem; font-weight:800;">3</div>
+          <h3>Payment & Documentation</h3>
+          <p>Secure payment via L/C or T/T. Complete export documentation package prepared for your destination country.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-icon" style="font-size:1.8rem; font-weight:800;">4</div>
+          <h3>Shipping & Delivery</h3>
+          <p>Professional logistics management from port to destination. Real-time tracking and insurance coverage included.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo" style="margin-bottom:1rem;">
+          <div class="logo-icon">W</div>
+          <span class="logo-text">Wah-Pak</span>
+        </a>
+        <p>華博環球貿易有限公司 — your trusted partner in premium automobile export and global trade solutions since 2015.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Product Categories</h4>
+        <ul>
+          <li><a href="#" onclick="document.querySelector('[data-filter=sedan]').click()">Sedans</a></li>
+          <li><a href="#" onclick="document.querySelector('[data-filter=suv]').click()">SUVs</a></li>
+          <li><a href="#" onclick="document.querySelector('[data-filter=premium]').click()">Premium</a></li>
+          <li><a href="#" onclick="document.querySelector('[data-filter=bulk]').click()">Bulk Export</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+8613826455530">+86 138 2645 5530</a></li>
+          <li>RM 1011, 10/F, THE CLOUD</li>
+          <li>111 Tung Chau Street</li>
+          <li>Tai Wo Ping, Hong Kong</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 Wah-Pak Global Trading Limited. All rights reserved.</p>
+      <p>華博環球貿易有限公司</p>
+    </div>
+  </footer>
+
+  <!-- Image Modal -->
+  <div class="modal" id="imageModal">
+    <button class="modal-close">&times;</button>
+    <img src="" alt="Product Image">
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

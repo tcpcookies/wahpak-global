@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Wah-Pak Global Trading Limited for premium automobile export. Get a quote within 24 hours.">
+  <title>Contact | Wah-Pak Global Trading</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23c9a84c'/><text x='50' y='68' text-anchor='middle' font-size='50' font-weight='bold' fill='%230a0d14'>W</text></svg>">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header scrolled">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">W</div>
+        <span class="logo-text">Wah-Pak</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="nav-cta">Get Quote</a></li>
+        </ul>
+      </nav>
+
+      <div class="mobile-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="page-hero-content">
+      <span class="hero-badge">Get In Touch</span>
+      <h1>Let's <span class="text-accent">Talk Business</span></h1>
+      <p>Tell us what you need — our team will respond within 24 hours with a tailored quotation.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="contact-grid">
+        <!-- Contact Info Cards -->
+        <div class="contact-info reveal">
+          <div class="contact-card">
+            <div class="contact-icon">&#128222;</div>
+            <div>
+              <h4>Phone / WhatsApp</h4>
+              <p><a href="tel:+8613826455530" style="color: var(--accent);">+86 138 2645 5530</a></p>
+              <p style="font-size:0.8rem; color: var(--text-muted);">Available Mon-Sat, 9:00-18:00 HKT</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">&#128231;</div>
+            <div>
+              <h4>Email</h4>
+              <p style="color: var(--accent);">info@wahpak-global.com</p>
+              <p style="font-size:0.8rem; color: var(--text-muted);">We respond within 24 hours</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">&#128205;</div>
+            <div>
+              <h4>Office Address</h4>
+              <p>RM 1011, 10/F, THE CLOUD</p>
+              <p>111 Tung Chau Street</p>
+              <p>Tai Wo Ping, Hong Kong</p>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">&#127760;</div>
+            <div>
+              <h4>Company Registration</h4>
+              <p>Wah-Pak Global Trading Limited</p>
+              <p>華博環球貿易有限公司</p>
+              <p style="font-size:0.8rem; color: var(--text-muted);">Registered in Hong Kong SAR</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="reveal">
+          <form class="contact-form" onsubmit="return handleContactSubmit(event)">
+            <h3 style="font-size:1.3rem; font-weight:700; margin-bottom:1.5rem;">Send Us an Inquiry</h3>
+
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+              <div class="form-group">
+                <label>Full Name *</label>
+                <input type="text" placeholder="Your full name" required>
+              </div>
+
+              <div class="form-group">
+                <label>Company Name</label>
+                <input type="text" placeholder="Your company name">
+              </div>
+            </div>
+
+            <div style="display:grid; grid-template-columns:1fr 1fr; gap:1rem;">
+              <div class="form-group">
+                <label>Email *</label>
+                <input type="email" placeholder="your@email.com" required>
+              </div>
+
+              <div class="form-group">
+                <label>Phone / WhatsApp</label>
+                <input type="tel" placeholder="+ Country code + Number">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>Destination Country *</label>
+              <select required>
+                <option value="">Select destination country</option>
+                <option>Nigeria</option>
+                <option>Kenya</option>
+                <option>Ghana</option>
+                <option>Tanzania</option>
+                <option>South Africa</option>
+                <option>UAE</option>
+                <option>Saudi Arabia</option>
+                <option>Pakistan</option>
+                <option>Bangladesh</option>
+                <option>Philippines</option>
+                <option>Vietnam</option>
+                <option>Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Vehicle Interest</label>
+              <select>
+                <option value="">Select vehicle type</option>
+                <option>Sedan</option>
+                <option>SUV</option>
+                <option>MPV</option>
+                <option>Pickup Truck</option>
+                <option>Electric Vehicle</option>
+                <option>Multiple Types / Bulk</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label>Message *</label>
+              <textarea placeholder="Tell us about your requirements — vehicle types, quantity, budget range, preferred brands, and any specific needs." required></textarea>
+            </div>
+
+            <p style="font-size:0.78rem; color: var(--text-muted); margin-bottom:1rem;">
+              By submitting, you agree to our privacy policy and consent to being contacted regarding your inquiry.
+            </p>
+
+            <button type="submit" class="btn-submit">Send Inquiry &#8594;</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">FAQ</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+      </div>
+
+      <div class="services-grid" style="max-width:900px; margin:0 auto;">
+        <div class="service-card reveal">
+          <h3>What markets do you serve?</h3>
+          <p>We primarily serve clients across Africa, the Middle East, South Asia, and Southeast Asia. Our Hong Kong base allows efficient shipping to most global destinations.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <h3>What is the minimum order quantity?</h3>
+          <p>There is no strict minimum — we handle everything from single-unit purchases to bulk shipments of 50+ vehicles. Contact us with your needs for a tailored quote.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <h3>How do you ensure vehicle quality?</h3>
+          <p>Every vehicle undergoes a comprehensive multi-point inspection by certified technicians. We provide detailed condition reports and high-resolution photos before shipment.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <h3>What payment methods do you accept?</h3>
+          <p>We accept Letter of Credit (L/C), Telegraphic Transfer (T/T), and can discuss other arrangements for established clients. Our Hong Kong banking infrastructure ensures secure transactions.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <h3>How long does shipping take?</h3>
+          <p>Shipping times vary by destination. Typical transit ranges from 2-6 weeks depending on the port and shipping method (RO-RO vs container). We provide estimated timelines with every quote.</p>
+        </div>
+
+        <div class="service-card reveal">
+          <h3>Do you handle import documentation?</h3>
+          <p>We provide all export documentation from Hong Kong. For import-side requirements, we work closely with your local clearing agent to ensure all documents meet destination country regulations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo" style="margin-bottom:1rem;">
+          <div class="logo-icon">W</div>
+          <span class="logo-text">Wah-Pak</span>
+        </a>
+        <p>華博環球貿易有限公司 — your trusted partner in premium automobile export and global trade solutions since 2015.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="products.html">Vehicle Export</a></li>
+          <li><a href="products.html">Bulk Sourcing</a></li>
+          <li><a href="index.html#services">Logistics</a></li>
+          <li><a href="index.html#services">Trade Finance</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+8613826455530">+86 138 2645 5530</a></li>
+          <li>RM 1011, 10/F, THE CLOUD</li>
+          <li>111 Tung Chau Street</li>
+          <li>Tai Wo Ping, Hong Kong</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 Wah-Pak Global Trading Limited. All rights reserved.</p>
+      <p>華博環球貿易有限公司</p>
+    </div>
+  </footer>
+
+  <script>
+    function handleContactSubmit(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('.btn-submit');
+      const originalText = btn.textContent;
+      btn.textContent = 'Sending...';
+      btn.disabled = true;
+
+      setTimeout(() => {
+        btn.textContent = '✓ Message Sent! We\'ll Reply Within 24h';
+        btn.style.background = '#22c55e';
+        e.target.reset();
+
+        setTimeout(() => {
+          btn.textContent = originalText;
+          btn.style.background = '';
+          btn.disabled = false;
+        }, 4000);
+      }, 1500);
+    }
+  </script>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
